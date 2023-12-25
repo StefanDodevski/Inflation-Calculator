@@ -16,14 +16,16 @@
     <div class="bg-overlay">
       <div class="container">
         <h1>Inflation Calculator</h1>
-        <p>Inflation rate: <input type="number" /> %</p>
+        <p>Inflation rate: <input id="rate" type="number" /> %</p>
         <p>
-          How much will <input type="number" /> &#8364; worth in
-          <input type="number" /> years?
+          How much will <input id="money" type="number" /> &#8364; worth in
+          <input id="years" type="number" /> years?
         </p>
-        <button class="action-btn">Calculate</button>
-        <p></p>
+        <button id="action-btn">Calculate</button>
       </div>
+      <p id="result"></p>
     </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
